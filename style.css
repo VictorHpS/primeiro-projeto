@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  /*'Montserrat', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');  /* 'Righteous', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap'); /*'Sarala', sans-serif;*/
+
+:root{
+
+    --cor1: #D277E6;
+
+    --fonte1: 'Montserrat', sans-serif;
+    --fonte2: 'Righteous', cursive;
+    --fonte3: 'Sarala', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to left , #D277E6 , transparent);
+    box-shadow: 0px 0px 12px -2px black;
+    
+}
+
+.cabecalho-imagem{
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 35px;
+}
+
+.cabecalho-titulo{
+    font-variant: small-caps;
+    font-size: 20px;
+    display: block;
+    justify-content: center;
+    font-family: var(--fonte1);
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 35px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.cabecalho-menu-item{
+    font-family: var(--fonte2);
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabecalho-menu-item:hover{
+    color: white;
+}
+
+.imagem-central{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.imagem-central-victor{
+    height: 273px;
+    justify-content: center;
+}
+
+.titulo-foto-victor{
+    font-size: 20px;
+    padding: 20px;
+    font-family: var(--fonte1);
+    text-align: center;
+}
+
+.conteudo-principal{
+    display: block;
+    justify-content: center;
+}
+
+.conteudo-subtitulo{
+    font-size: 20px;
+    font-family: var(--fonte2);
+    padding: 24px;
+    text-align: center;
+    border-top:  solid black;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo-principal-paragrafo{
+    display: inline-block;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: var(--fonte3);
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.conteudo-imagens{
+    width: 500px;
+    display: block;
+    align-items: center;
+    
+}
+
+.conteudo-imagem-ifmt{
+    width: 500px;
+    justify-content: center;
+    background-size: auto;
+}
+
+.paragrafo-foto-ifmt{
+    font-family: var(--fonte2);
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.conteudo-imagem-caceres{
+    width: 500px;
+}
+
+.paragrafo-foto-caceres{
+    font-family: var(--fonte2);
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.copy{
+    color: rgba(138, 128, 128, 0.863);
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
